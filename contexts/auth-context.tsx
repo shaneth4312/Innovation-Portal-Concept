@@ -7,7 +7,7 @@ import Cookies from 'js-cookie';
 type User = {
   id: string;
   email: string;
-  role: 'ADMIN' | 'ASSESSOR' | 'ADM' | 'APPLICANT';
+  role: 'SUPER_ADMIN' | 'ASSESSOR' | 'ADM' | 'APPLICANT';
 } | null;
 
 type AuthContextType = {
@@ -57,7 +57,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       Cookies.set('user', JSON.stringify(userData.user), { expires: 1 });
       
       // Redirect based on user role
-      if (userData.user.role === 'ADMIN' || userData.user.role === 'ADM') {
+      if (userData.user.role === 'SUPER_ADMIN' || userData.user.role === 'ADM') {
         router.push('/admin');
       } else {
         router.push('/dashboard');

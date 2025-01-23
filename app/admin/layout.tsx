@@ -15,7 +15,7 @@ export default function AdminLayout({
     redirect('/');
   }
 
-  if (user.role !== 'ADMIN' && user.role !== 'ADM') {
+  if (user.role !== 'SUPER_ADMIN' && user.role !== 'ADM') {
     redirect('/challenges');
   }
 

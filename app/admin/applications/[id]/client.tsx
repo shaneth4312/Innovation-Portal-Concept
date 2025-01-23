@@ -107,7 +107,7 @@ export default function ApplicationDetailClient({ application }: Props) {
                   </ul>
                   </section>
                   <section>
-                    <h3 className="text-lg font-semibold mb-4">Budgets and Costing</h3>
+                    <h3 className="text-lg font-semibold mb-4">Supporting Documents</h3>
                     <ul>
                       {application.supportingDocuments.map((item, index) => (
                         <Button key={index} className='mr-3'>{item}</Button>

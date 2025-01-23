@@ -14,7 +14,7 @@ export function middleware(request: NextRequest) {
 
     try {
       const userData = JSON.parse(user);
-      if (userData.role !== 'ADMIN' && userData.role !== 'ADM') {
+      if (userData.role !== 'SUPER_ADMIN' && userData.role !== 'ADM') {
         // If user is not an admin, redirect to challenges
         return NextResponse.redirect(new URL('/challenges', request.url));
       }

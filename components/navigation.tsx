@@ -17,7 +17,7 @@ export function Navigation() {
   const pathname = usePathname();
   const { user, logout } = useAuth();
 
-  const isAdmin = user?.role === 'ADMIN' || user?.role === 'ADM';
+  const isAdmin = user?.role === 'SUPER_ADMIN' || user?.role === 'ADM';
 
   const handleLogout = async () => {
     console.log('Handling logout click');
