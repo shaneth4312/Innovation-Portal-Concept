@@ -44,7 +44,7 @@ export default function ApplicationDetailClient({ application }: Props) {
                   
                   <section>
                     <h3 className="text-lg font-semibold mb-4">Detailed Description</h3>
-                    <p className="text-muted-foreground">{application.description}</p>
+                    <p className="text-muted-foreground">{application.applicant}</p>
                   </section>
 
                   <section>
