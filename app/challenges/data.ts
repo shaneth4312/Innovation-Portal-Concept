@@ -15,87 +15,89 @@ export interface Challenge {
 
 export const accelerateChallenge: Challenge = {
   id: '1',
-  title: 'HMGCC Accelerate: Pilot Scheme for Tech Start-Ups',
+  title: 'TechForward Accelerate: Innovation Program for Emerging Companies',
   
-  overview: `Technology start-ups are being invited to take part in a new pilot, HMGCC Accelerate, which offers them the chance to work with HMGCC (His Majesty's Government Communications Centre)'s Co-Creation Space as part of a six-week programme.
+  overview: `Innovative companies are being invited to participate in TechForward Accelerate, a comprehensive program offering the opportunity to collaborate with TechForward Solutions' Innovation Hub as part of an eight-week intensive development cycle.
 
-For this limited period, start-ups will be able to apply to help develop technology products for potential future use with UK national security organisations, supported by our experts at HMGCC.
+For this program period, companies will be able to apply to help develop cutting-edge technology solutions for potential commercial deployment in various industry sectors, supported by our team of expert technologists and business advisors.
 
-For this pilot, we are keen to hear from start-ups working on hardware and software technologies capable of testing the cyber security mitigations of connected and isolated systems in specific ways.
+We are particularly interested in hearing from companies working on advanced software and hardware technologies that focus on improving system efficiency, automation, and user experience across different platforms.
 
-This six-week intensive programme, delivered as a mix of in-person and virtual activity, will help startups, with a relevant product, move towards a minimum viable product (MVP) and develop their go-to-market strategy for future use with UK national security organisations.`,
+This eight-week comprehensive program, delivered through a combination of on-site workshops and virtual collaboration sessions, will help participating companies refine their products, develop sustainable business models, and prepare for market launch.`,
   
   benefits: [
-    "Expert mentorship",
-    "Tailored product development support",
-    "Access to HMGCC's national security engineering expertise and challenge owners",
-    "Operational scaling guidance",
-    "Founder peer support and resilience training",
-    "Pitch training in a national security context",
-    "Access to a co-working space in central Milton Keynes for the duration of the programme"
+    "Expert technical mentorship",
+    "Customized product development guidance",
+    "Access to TechForward's engineering expertise and industry connections",
+    "Business scaling and strategy support",
+    "Peer networking and collaboration opportunities",
+    "Presentation and pitch skills development",
+    "Access to state-of-the-art co-working facilities in downtown Innovation District"
   ],
   
-  whoShouldApply: `We're keen to hear from startups who work in hardware and software operational technologies that can test security mitigations of connected and isolated systems by attempting to generate cyber and physical effects.
+  whoShouldApply: `We're looking for companies developing innovative software and hardware solutions that address real-world challenges in automation, efficiency, and user experience optimization.
 
-Examples include, but are not limited to, combined automated vulnerability detection, new red-team tools and new approaches to reverse engineering. Successful applicants will have a relevant product that is ready to scale, a firm commitment to the programme and a passion for working in national security.
+Examples include, but are not limited to, advanced automation systems, intelligent monitoring tools, and innovative approaches to data processing and analysis. Ideal applicants will have a viable product concept, strong technical foundation, dedication to the program, and enthusiasm for commercial innovation.
 
-Applicants should be based in a NATO member state or Australia and New Zealand. Prior security clearance is not necessary; however you will be required to undergo appropriate security screening.`,
+Applicants should be based in North America or have established operations in the region. No specific certifications required, though participants will undergo standard business verification processes.`,
   
   deadline: '2024-01-26',
   registrationOpens: '2024-01-18',
   registrationCloses: '2024-01-26',
   status: 'OPEN',
-  duration: '6 weeks',
-  awardDescription: 'Those who successfully apply for HMGCC Accelerate will benefit from a range of support such as expert mentorship, tailored product development support and access to a co-working space in central Milton Keynes through the period of the pilot scheme.'
+  duration: '8 weeks',
+  awardDescription: 'Successful TechForward Accelerate participants will receive comprehensive support including expert mentorship, tailored development guidance, and access to premium co-working facilities in the downtown Innovation District throughout the program duration.'
 };
 
 export const aiChallenge: Challenge = {
   id: '2',
-  title: 'Cutting Eavesdropping Risks Using AI',
+  title: 'Smart Audio Processing for Enhanced Communication',
   
-  overview: `Government offices are often found in multi-occupancy buildings and open plan offices. All offices are designed to National Protective Security Agency specifications, to ensure a standard in physical and cyber protection. But there is more to learn. Understanding risk in this type of working environment is an important function. If there is an opportunity for eavesdropping, either accidentally or by a nefarious party, we would like to understand how challenging it would be to cancel out the irrelevant ambient noise to focus in on the conversation of significance.
+  overview: `Modern workplaces increasingly rely on open office designs and shared spaces that present unique challenges for clear communication. Understanding how to optimize audio clarity in these environments has become essential for business productivity. We want to explore how advanced audio processing can improve communication quality while maintaining appropriate privacy standards.
 
-The latest challenge launched by HMGCC Co-Creation sets out to understand the threat of third parties using artificial intelligence (AI) / machine learning (ML) to cancel out randomised and unwanted noise.
+The latest challenge from TechForward Innovation Labs focuses on developing AI and machine learning solutions that can enhance audio clarity by intelligently filtering unwanted ambient noise while preserving important communication content.
 
-Within office environments, there is a general noise from heating, ventilation, air conditioning systems (HVAC), desk fans, doors closing and background conversations. All of this constitutes random noise generation.
+In typical office environments, there's constant background noise from HVAC systems, equipment, conversations, and general office activity. This creates challenges for clear communication during calls and meetings.
 
-What is already known about how to cancel this noise out? Digital signal processing with adaptive filtering is well known. We want to know more about the threat of cutting- edge methods to increase signal to noise ratios, used to focus on specific conversations.
+Current noise cancellation technology exists, but we want to push the boundaries with next-generation AI/ML approaches that can provide superior signal enhancement and adaptive filtering capabilities.
 
-There has been a rapid rise in recent years of AI and ML adoption in most sectors. There has also been interest and advanced research into using deep learning and neural networks to provide real-time noise cancellation. HMGCC Co-Creation is now seeking to better understand the threat through testing advanced noise cancellation capabilities.`,
+Recent advances in AI and ML have opened new possibilities for real-time audio processing. TechForward Innovation Labs is seeking to explore these cutting-edge capabilities to create breakthrough audio enhancement solutions.`,
   
-  useCase: `Government employee Sam is having a private call in an office booth. The booth is open but designed to dampen leaking sound to the external office. For other office users standing close by there is limited sound leakage, so Sam's conversation can stay private.
+  useCase: `Business professional Alex is participating in an important client call from a semi-private booth in the open office. The booth provides some acoustic isolation but isn't completely soundproof. For colleagues nearby, there's minimal audio spillover, maintaining Alex's conversation privacy.
 
-The outer area of the office is open plan and there are various online calls happening, as well as general office noise.
+The surrounding open office area has multiple ongoing calls, general office chatter, and typical workplace sounds.
 
-Shauna is a few metres away from Sam, using her phone. The phone is picking up all the audio in the room but with the general office noise, Sam's conversation is unlikely to be recorded to an intelligible level, whether the audio was picked up accidentally (over a phone call) or nefariously (by taking an active recording).
+Colleague Jamie is working a few meters away and may occasionally hear fragments of various conversations mixed with office ambient noise. Any audio pickup would typically result in an unclear mix of sounds that doesn't compromise individual conversation privacy.
 
-If audio was downloaded from Shauna's phone, there are existing software packages that could be used to remove background noise. However, the following points should be considered:
+Current commercial audio processing solutions work well for controlled environments like podcasting or music recording where microphone placement and acoustic conditions are optimized.
 
-• Software packages are typically focused on the commercial market, such as podcasting, music recording, and online calls, where there is a controlled and predictable environment of microphone placement and high signal to noise ratio.
-• Software packages are unlikely to filter between other less sensitive conversations in the office and focus on Sam's private conversation.
-• Shauna's microphone is dynamic, she may decide to sit in a different area or move about, all while still picking up audio. Shauna's phone contains a single microphone, not an array of microphones.
+However, these solutions face challenges in dynamic office environments where:
+• Multiple conversations occur simultaneously
+• Microphone positions vary and move
+• Background noise patterns change throughout the day
+• Audio sources use various recording devices with different capabilities
 
-In this scenario, it is highly unlikely that Sam's conversation could be intelligibly intercepted from Shauna's phone even with modern post processing techniques. But could advances in AI / ML audio processing pose more risks?`,
+While current technology provides good baseline performance, we're interested in exploring how advanced AI/ML audio processing could create even better communication experiences in these complex acoustic environments.`,
   
-  whoShouldApply: `This challenge is open to sole innovators, industry, academic and research organisations of all types and sizes. There is no requirement for security clearances.
+  whoShouldApply: `This challenge welcomes individual innovators, companies, academic institutions, and research organizations of all sizes. No special certifications or clearances required.
 
-Solution providers or direct collaboration from countries listed by the UK government under trade sanctions and/or arms embargoes, are not eligible for HMGCC Co-Creation challenges.`,
+Participants should be established entities in good standing with appropriate business registrations and compliance with relevant technology export regulations.`,
   
 benefits: [
-    "Expert mentorship",
-    "Tailored product development support",
-    "Access to HMGCC's national security engineering expertise and challenge owners",
-    "Operational scaling guidance",
-    "Founder peer support and resilience training",
-    "Pitch training in a national security context",
-    "Access to a co-working space in central Milton Keynes for the duration of the programme"
+    "Expert technical mentorship",
+    "Customized product development guidance",
+    "Access to TechForward's audio engineering expertise and industry partners",
+    "Business scaling and strategy support",
+    "Peer networking and collaboration opportunities",
+    "Presentation and pitch skills development",
+    "Access to state-of-the-art co-working facilities in downtown Innovation District"
   ],
   
   deadline: '2024-11-07',
   registrationOpens: '2024-10-10',
   registrationCloses: '2024-11-07',
   status: 'UPCOMING',
-  duration: 'Initial sprint with potential future funding'
+  duration: 'Initial development phase with potential follow-on funding'
 };
 
 export const challenges: Record<string, Challenge> = {
@@ -143,56 +145,56 @@ export const applications: Record<string, Application> = {
     status: 'Under Review',
     submittedAt: '2024-01-15',
     challenge: challenges['2'].title,
-    applicant: 'Agent',
-    referralSource: 'Government Website',
-    projectTitle: 'Cutting Eavesdropping Risks Using AI',
-    summary: 'An innovative AI-driven system designed to detect and prevent eavesdropping in sensitive government environments. Our solution combines advanced acoustic analysis with machine learning to provide real-time threat detection while maintaining privacy standards.',
-    description: 'Our comprehensive solution addresses the critical need for enhanced security in government facilities through innovative AI technology.',
+    applicant: 'AudioTech Solutions',
+    referralSource: 'Technology Blog',
+    projectTitle: 'Smart Audio Processing for Enhanced Communication',
+    summary: 'An innovative AI-driven system designed to enhance audio clarity in business environments. Our solution combines advanced acoustic analysis with machine learning to provide real-time audio enhancement while maintaining privacy standards.',
+    description: 'Our comprehensive solution addresses the critical need for enhanced communication clarity in modern business environments through innovative AI technology.',
     keyComponents: {
       title: 'Key Components',
       items: [
         'Advanced acoustic sensor network deployment',
-        'Real-time AI-powered analysis system',
+        'Real-time AI-powered audio enhancement system',
         'Privacy-preserving processing algorithms',
-        'Integration with existing security infrastructure',
-        'User-friendly monitoring dashboard',
+        'Integration with existing communication infrastructure',
+        'User-friendly audio management dashboard',
       ],
     },
-    technicalApproach: 'We utilize state-of-the-art deep learning models specifically trained on acoustic signatures associated with eavesdropping attempts. The system processes ambient sound patterns in real-time while explicitly avoiding the capture of conversation content.',
+    technicalApproach: 'We utilize state-of-the-art deep learning models specifically trained on acoustic patterns for optimal audio enhancement. The system processes ambient sound patterns in real-time to improve communication clarity while explicitly preserving conversation privacy.',
     impact: [
-      '90% improvement in early threat detection',
-      'Reduction in security personnel workload by 40%',
+      '90% improvement in audio clarity',
+      'Reduction in communication issues by 40%',
       'Zero impact on day-to-day operations',
-      'Scalable deployment across multiple facilities',
+      'Scalable deployment across multiple office locations',
       'Continuous system learning and adaptation',
     ],
     benefits: [
-      'Enhanced security posture',
+      'Enhanced communication quality',
       'Reduced operational costs',
-      'Improved confidence in sensitive discussions',
-      'Future-proof security infrastructure',
+      'Improved confidence in business discussions',
+      'Future-proof communication infrastructure',
     ],
     timeline: [
-      'Phase 1 (Months 1-2): System Architecture Design, Initial AI Model Development, Sensor Network Planning',
+      'Phase 1 (Months 1-2): System Architecture Design, Initial AI Model Development, Audio Network Planning',
       'Phase 2 (Months 3-4): AI Model Training & Validation, Hardware Integration, Initial Testing',
       'Phase 3 (Months 5-6): Pilot Deployment, System Optimization, Full Deployment Preparation',
     ],
     budget: {
-      header: 'Total Project Cost: £45,000',
-      title: 'Development (£25,000):',
+      header: 'Total Project Cost: $63,000',
+      title: 'Development ($35,000):',
       items: [
-        'AI Model Development: £15,000',
-        'System Architecture: £10,000',
+        'AI Model Development: $20,000',
+        'System Architecture: $15,000',
       ],
-      title2: 'Hardware (£12,000):',
+      title2: 'Hardware ($18,000):',
       items2: [
-        'Acoustic Sensors: £8,000',
-        'Processing Units: £4,000',
+        'Audio Enhancement Hardware: $12,000',
+        'Processing Units: $6,000',
       ],
-      title3: 'Implementation (£8,000):',
+      title3: 'Implementation ($10,000):',
       items3: [
-        'Security Testing: £3,000',
-        'Pilot Program: £5,000',
+        'Quality Testing: $4,000',
+        'Pilot Program: $6,000',
       ],
     },
     supportingDocuments: [
@@ -210,32 +212,32 @@ export const applications: Record<string, Application> = {
     status: 'Submitted',
     submittedAt: '2024-01-16',
     challenge: challenges['2'].title,
-    applicant: 'Red Developers',
+    applicant: 'InnovateTech Systems',
     referralSource: 'LinkedIn',
-    projectTitle: 'Cutting Eavesdropping Risks Using AI',
-    summary: 'Leveraging deep neural networks to create an intelligent system that can identify and isolate specific conversation patterns in complex acoustic environments, while focusing on privacy preservation and ethical considerations.',
-    description: 'Our solution employs advanced neural network architectures specifically designed for acoustic processing in multi-layered environments.',
+    projectTitle: 'Smart Audio Processing for Enhanced Communication',
+    summary: 'Leveraging deep neural networks to create an intelligent system that can enhance audio quality and isolate important communication in complex acoustic environments, while focusing on privacy preservation and ethical considerations.',
+    description: 'Our solution employs advanced neural network architectures specifically designed for audio enhancement in multi-layered business environments.',
     keyComponents: {
       title: 'Key Components',
       items: [
-        'Multi-layer neural network for acoustic pattern recognition',
+        'Multi-layer neural network for audio pattern recognition',
         'Ethical AI framework for privacy preservation',
-        'Distributed sensor array system',
-        'Real-time processing engine',
+        'Distributed audio sensor array system',
+        'Real-time audio processing engine',
         'Secure data handling protocol'
       ]
     },
-    technicalApproach: 'Using a combination of convolutional and recurrent neural networks, our system processes acoustic data in real-time to identify potential eavesdropping vulnerabilities. The solution incorporates privacy-by-design principles to ensure ethical handling of acoustic data.',
+    technicalApproach: 'Using a combination of convolutional and recurrent neural networks, our system processes acoustic data in real-time to enhance audio quality and communication clarity. The solution incorporates privacy-by-design principles to ensure ethical handling of audio data.',
     impact: [
-      'Identification of acoustic vulnerabilities with 95% accuracy',
+      'Improvement in audio clarity with 95% accuracy',
       'Privacy-preserving processing with zero data retention',
-      'Real-time threat assessment capabilities',
+      'Real-time audio enhancement capabilities',
       'Adaptive learning from new acoustic patterns',
-      'Minimal false positive rate (<1%)'
+      'Minimal processing latency (<50ms)'
     ],
     benefits: [
-      'Enhanced acoustic security awareness',
-      'Proactive threat detection',
+      'Enhanced audio communication quality',
+      'Proactive noise reduction',
       'Minimal computational overhead',
       'Easy integration with existing systems'
     ],
@@ -246,21 +248,21 @@ export const applications: Record<string, Application> = {
       'Phase 4 (Month 5-6): Deployment and Optimization'
     ],
     budget: {
-      header: 'Total Project Cost: £52,000',
-      title: 'AI Development (£30,000):',
+      header: 'Total Project Cost: $68,000',
+      title: 'AI Development ($40,000):',
       items: [
-        'Neural Network Development: £20,000',
-        'Training Infrastructure: £10,000'
+        'Neural Network Development: $25,000',
+        'Training Infrastructure: $15,000'
       ],
-      title2: 'Equipment (£15,000):',
+      title2: 'Equipment ($20,000):',
       items2: [
-        'Sensor Arrays: £10,000',
-        'Processing Hardware: £5,000'
+        'Audio Sensor Arrays: $12,000',
+        'Processing Hardware: $8,000'
       ],
-      title3: 'Implementation (£7,000):',
+      title3: 'Implementation ($8,000):',
       items3: [
-        'Testing and Validation: £4,000',
-        'Deployment: £3,000'
+        'Testing and Validation: $5,000',
+        'Deployment: $3,000'
       ]
     },
     supportingDocuments: [
@@ -278,19 +280,19 @@ export const applications: Record<string, Application> = {
     status: 'Under Review',
     submittedAt: '2024-01-17',
     challenge: challenges['2'].title,
-    applicant: 'Engineering Agency',
+    applicant: 'Quantum Audio Labs',
     referralSource: 'Industry Conference',
-    projectTitle: 'Cutting Eavesdropping Risks Using AI',
-    summary: 'A revolutionary approach using quantum-inspired algorithms to process and analyze acoustic environments, providing unprecedented accuracy in detecting potential eavesdropping threats while maintaining complete privacy.',
-    description: 'Our quantum-inspired solution brings cutting-edge mathematical models to acoustic security, offering superior performance compared to traditional methods.',
+    projectTitle: 'Smart Audio Processing for Enhanced Communication',
+    summary: 'A revolutionary approach using quantum-inspired algorithms to process and analyze acoustic environments, providing unprecedented accuracy in audio enhancement for business communications while maintaining complete privacy.',
+    description: 'Our quantum-inspired solution brings cutting-edge mathematical models to audio processing, offering superior performance compared to traditional methods.',
     keyComponents: {
       title: 'Key Components',
       items: [
         'Quantum-inspired processing algorithms',
         'Advanced acoustic modeling system',
         'Environmental noise mapping',
-        'Adaptive security protocols',
-        'Real-time threat visualization'
+        'Adaptive audio enhancement protocols',
+        'Real-time audio quality visualization'
       ]
     },
     technicalApproach: 'By implementing quantum-inspired algorithms, we process acoustic data using advanced mathematical models that can separate and analyze multiple audio streams simultaneously, while maintaining strict privacy controls.',
@@ -313,21 +315,21 @@ export const applications: Record<string, Application> = {
       'Phase 3 (Months 5-6): Deployment and Performance Optimization'
     ],
     budget: {
-      header: 'Total Project Cost: £65,000',
-      title: 'Research & Development (£35,000):',
+      header: 'Total Project Cost: $65,000',
+      title: 'Research & Development ($35,000):',
       items: [
-        'Algorithm Development: £25,000',
-        'System Architecture: £10,000'
+        'Algorithm Development: $25,000',
+        'System Architecture: $10,000'
       ],
-      title2: 'Hardware (£20,000):',
+      title2: 'Hardware ($20,000):',
       items2: [
-        'Specialized Processing Units: £15,000',
-        'Sensor Systems: £5,000'
+        'Specialized Processing Units: $15,000',
+        'Sensor Systems: $5,000'
       ],
-      title3: 'Implementation (£10,000):',
+      title3: 'Implementation ($10,000):',
       items3: [
-        'Testing & Validation: £6,000',
-        'Deployment: £4,000'
+        'Testing & Validation: $6,000',
+        'Deployment: $4,000'
       ]
     },
     supportingDocuments: [
@@ -345,9 +347,9 @@ export const applications: Record<string, Application> = {
     status: 'Rejected',
     submittedAt: '2024-01-14',
     challenge: challenges['2'].title,
-    applicant: 'Surevine',
+    applicant: 'BioSound Innovations',
     referralSource: 'Academic Research Network',
-    projectTitle: 'Cutting Eavesdropping Risks Using AI',
+    projectTitle: 'Smart Audio Processing for Enhanced Communication',
     summary: 'Inspired by biological systems, particularly the human auditory system, our solution mimics natural acoustic processing capabilities to create an innovative approach to eavesdropping detection and prevention.',
     description: 'By leveraging principles from human auditory processing and other biological systems, we have developed a unique approach to acoustic security that offers natural, efficient, and accurate threat detection.',
     keyComponents: {
@@ -380,21 +382,21 @@ export const applications: Record<string, Application> = {
       'Phase 3 (Months 5-6): Testing and Deployment'
     ],
     budget: {
-      header: 'Total Project Cost: £48,000',
-      title: 'Research & Development (£28,000):',
+      header: 'Total Project Cost: $48,000',
+      title: 'Research & Development ($28,000):',
       items: [
-        'Algorithm Development: £18,000',
-        'System Design: £10,000'
+        'Algorithm Development: $18,000',
+        'System Design: $10,000'
       ],
-      title2: 'Hardware (£12,000):',
+      title2: 'Hardware ($12,000):',
       items2: [
-        'Biomimetic Sensors: £8,000',
-        'Processing Units: £4,000'
+        'Biomimetic Sensors: $8,000',
+        'Processing Units: $4,000'
       ],
-      title3: 'Implementation (£8,000):',
+      title3: 'Implementation ($8,000):',
       items3: [
-        'Testing: £5,000',
-        'Deployment: £3,000'
+        'Testing: $5,000',
+        'Deployment: $3,000'
       ]
     },
     supportingDocuments: [
@@ -412,9 +414,9 @@ export const applications: Record<string, Application> = {
     status: 'Under Review',
     submittedAt: '2024-01-18',
     challenge: challenges['1'].title,
-    applicant: 'Agent',
+    applicant: 'SecureTech Solutions',
     referralSource: 'Tech Nation Network',
-    projectTitle: 'HMGCC Accelerate: Pilot Scheme for Tech Start-Ups',
+    projectTitle: 'TechForward Accelerate: Innovation Program for Emerging Companies',
     summary: 'An advanced automated vulnerability detection system combining AI-driven scanning with hardware penetration testing capabilities, designed specifically for identifying security weaknesses in isolated systems.',
     description: 'Our solution integrates cutting-edge hardware and software components to create a comprehensive security testing platform that can identify vulnerabilities in both connected and air-gapped systems.',
     keyComponents: {
@@ -447,21 +449,21 @@ export const applications: Record<string, Application> = {
       'Week 5-6: Optimization and Final Development'
     ],
     budget: {
-      header: 'Total Project Cost: £75,000',
-      title: 'Development (£40,000):',
+      header: 'Total Project Cost: $75,000',
+      title: 'Development ($40,000):',
       items: [
-        'AI System Development: £25,000',
-        'Hardware Tool Creation: £15,000'
+        'AI System Development: $25,000',
+        'Hardware Tool Creation: $15,000'
       ],
-      title2: 'Equipment (£25,000):',
+      title2: 'Equipment ($25,000):',
       items2: [
-        'Testing Hardware: £15,000',
-        'Development Infrastructure: £10,000'
+        'Testing Hardware: $15,000',
+        'Development Infrastructure: $10,000'
       ],
-      title3: 'Implementation (£10,000):',
+      title3: 'Implementation ($10,000):',
       items3: [
-        'Security Validation: £6,000',
-        'Documentation: £4,000'
+        'Security Validation: $6,000',
+        'Documentation: $4,000'
       ]
     },
     supportingDocuments: [
@@ -479,9 +481,9 @@ export const applications: Record<string, Application> = {
     status: 'Submitted',
     submittedAt: '2024-01-19',
     challenge: challenges['1'].title,
-    applicant: 'NCSC',
-    referralSource: 'Cyber Security Conference',
-    projectTitle: 'HMGCC Accelerate: Pilot Scheme for Tech Start-Ups',
+    applicant: 'CryptoTech Innovations',
+    referralSource: 'Technology Conference',
+    projectTitle: 'TechForward Accelerate: Innovation Program for Emerging Companies',
     summary: 'A novel reverse engineering platform utilizing quantum-resistant cryptography analysis and advanced binary analysis tools for secure systems assessment.',
     description: 'Our platform combines state-of-the-art reverse engineering techniques with quantum-resistant security analysis to provide comprehensive assessment of secure systems.',
     keyComponents: {
@@ -514,21 +516,21 @@ export const applications: Record<string, Application> = {
       'Week 5-6: Optimization and Deployment'
     ],
     budget: {
-      header: 'Total Project Cost: £68,000',
-      title: 'Development (£35,000):',
+      header: 'Total Project Cost: $68,000',
+      title: 'Development ($35,000):',
       items: [
-        'Platform Development: £20,000',
-        'Crypto Analysis Tools: £15,000'
+        'Platform Development: $20,000',
+        'Crypto Analysis Tools: $15,000'
       ],
-      title2: 'Infrastructure (£23,000):',
+      title2: 'Infrastructure ($23,000):',
       items2: [
-        'Computing Resources: £15,000',
-        'Security Tools: £8,000'
+        'Computing Resources: $15,000',
+        'Security Tools: $8,000'
       ],
-      title3: 'Implementation (£10,000):',
+      title3: 'Implementation ($10,000):',
       items3: [
-        'Testing: £6,000',
-        'Documentation: £4,000'
+        'Testing: $6,000',
+        'Documentation: $4,000'
       ]
     },
     supportingDocuments: [
@@ -546,9 +548,9 @@ export const applications: Record<string, Application> = {
     status: 'Under Review',
     submittedAt: '2024-01-17',
     challenge: challenges['1'].title,
-    applicant: 'Red Developers',
-    referralSource: 'Government Security Forum',
-    projectTitle: 'HMGCC Accelerate: Pilot Scheme for Tech Start-Ups',
+    applicant: 'AutoTest Systems',
+    referralSource: 'Software Development Forum',
+    projectTitle: 'TechForward Accelerate: Innovation Program for Emerging Companies',
     summary: 'An innovative red-team automation platform that combines AI-driven attack simulation with hardware-based penetration testing capabilities.',
     description: 'Our platform automates red-team operations through intelligent attack simulation and hardware-based testing, providing comprehensive security assessment for isolated systems.',
     keyComponents: {
@@ -581,21 +583,21 @@ export const applications: Record<string, Application> = {
       'Week 5-6: Deployment and Optimization'
     ],
     budget: {
-      header: 'Total Project Cost: £72,000',
-      title: 'Development (£38,000):',
+      header: 'Total Project Cost: $72,000',
+      title: 'Development ($38,000):',
       items: [
-        'AI System Development: £23,000',
-        'Hardware Integration: £15,000'
+        'AI System Development: $23,000',
+        'Hardware Integration: $15,000'
       ],
-      title2: 'Equipment (£24,000):',
+      title2: 'Equipment ($24,000):',
       items2: [
-        'Testing Hardware: £14,000',
-        'Computing Infrastructure: £10,000'
+        'Testing Hardware: $14,000',
+        'Computing Infrastructure: $10,000'
       ],
-      title3: 'Implementation (£10,000):',
+      title3: 'Implementation ($10,000):',
       items3: [
-        'Validation: £6,000',
-        'Documentation: £4,000'
+        'Validation: $6,000',
+        'Documentation: $4,000'
       ]
     },
     supportingDocuments: [
@@ -613,9 +615,9 @@ export const applications: Record<string, Application> = {
     status: 'Rejected',
     submittedAt: '2024-01-16',
     challenge: challenges['1'].title,
-    applicant: 'PenTesters',
-    referralSource: 'Security Startup Network',
-    projectTitle: 'HMGCC Accelerate: Pilot Scheme for Tech Start-Ups',
+    applicant: 'VulnCheck Technologies',
+    referralSource: 'Tech Startup Network',
+    projectTitle: 'TechForward Accelerate: Innovation Program for Emerging Companies',
     summary: 'A machine learning-based vulnerability assessment system designed to identify zero-day exploits in secure environments.',
     description: 'Our system uses advanced machine learning algorithms to discover potential zero-day vulnerabilities in both connected and isolated systems.',
     keyComponents: {
@@ -648,21 +650,21 @@ export const applications: Record<string, Application> = {
       'Week 5-6: Deployment and Training'
     ],
     budget: {
-      header: 'Total Project Cost: £58,000',
-      title: 'Development (£30,000):',
+      header: 'Total Project Cost: $58,000',
+      title: 'Development ($30,000):',
       items: [
-        'ML System Development: £20,000',
-        'Integration: £10,000'
+        'ML System Development: $20,000',
+        'Integration: $10,000'
       ],
-      title2: 'Infrastructure (£20,000):',
+      title2: 'Infrastructure ($20,000):',
       items2: [
-        'Computing Resources: £12,000',
-        'Testing Environment: £8,000'
+        'Computing Resources: $12,000',
+        'Testing Environment: $8,000'
       ],
-      title3: 'Implementation (£8,000):',
+      title3: 'Implementation ($8,000):',
       items3: [
-        'Testing: £5,000',
-        'Documentation: £3,000'
+        'Testing: $5,000',
+        'Documentation: $3,000'
       ]
     },
     supportingDocuments: [
@@ -680,9 +682,9 @@ export const applications: Record<string, Application> = {
     status: 'Under Review',
     submittedAt: '2024-01-20',
     challenge: challenges['1'].title,
-    applicant: 'Engineering Agency',
-    referralSource: 'Defence Innovation Hub',
-    projectTitle: 'HMGCC Accelerate: Pilot Scheme for Tech Start-Ups',
+    applicant: 'HardwareTech Systems',
+    referralSource: 'Innovation Hub',
+    projectTitle: 'TechForward Accelerate: Innovation Program for Emerging Companies',
     summary: 'A comprehensive hardware security testing platform combining physical penetration testing with advanced electromagnetic analysis.',
     description: 'Our solution integrates physical security testing tools with electromagnetic analysis capabilities to provide thorough security assessment of hardware systems.',
     keyComponents: {
@@ -715,21 +717,21 @@ export const applications: Record<string, Application> = {
       'Week 5-6: Optimization and Deployment'
     ],
     budget: {
-      header: 'Total Project Cost: £82,000',
-      title: 'Development (£45,000):',
+      header: 'Total Project Cost: $82,000',
+      title: 'Development ($45,000):',
       items: [
-        'Hardware Development: £30,000',
-        'Software Integration: £15,000'
+        'Hardware Development: $30,000',
+        'Software Integration: $15,000'
       ],
-      title2: 'Equipment (£27,000):',
+      title2: 'Equipment ($27,000):',
       items2: [
-        'EM Analysis Equipment: £17,000',
-        'Testing Tools: £10,000'
+        'EM Analysis Equipment: $17,000',
+        'Testing Tools: $10,000'
       ],
-      title3: 'Implementation (£10,000):',
+      title3: 'Implementation ($10,000):',
       items3: [
-        'Validation: £6,000',
-        'Documentation: £4,000'
+        'Validation: $6,000',
+        'Documentation: $4,000'
       ]
     },
     supportingDocuments: [
@@ -747,9 +749,9 @@ export const applications: Record<string, Application> = {
     status: 'Submitted',
     submittedAt: '2024-01-21',
     challenge: challenges['1'].title,
-    applicant: 'Surevine',
-    referralSource: 'Cyber Security Alliance',
-    projectTitle: 'HMGCC Accelerate: Pilot Scheme for Tech Start-Ups',
+    applicant: 'EmbeddedSec Labs',
+    referralSource: 'Technology Alliance',
+    projectTitle: 'TechForward Accelerate: Innovation Program for Emerging Companies',
     summary: 'An integrated firmware analysis and testing platform designed to identify vulnerabilities in embedded systems and IoT devices.',
     description: 'Our platform provides comprehensive firmware security analysis and testing capabilities for embedded systems, focusing on identifying vulnerabilities in isolated and connected devices.',
     keyComponents: {
@@ -782,21 +784,21 @@ export const applications: Record<string, Application> = {
       'Week 5-6: Optimization and Deployment'
     ],
     budget: {
-      header: 'Total Project Cost: £70,000',
-      title: 'Development (£35,000):',
+      header: 'Total Project Cost: $70,000',
+      title: 'Development ($35,000):',
       items: [
-        'Platform Development: £20,000',
-        'Tool Integration: £15,000'
+        'Platform Development: $20,000',
+        'Tool Integration: $15,000'
       ],
-      title2: 'Equipment (£25,000):',
+      title2: 'Equipment ($25,000):',
       items2: [
-        'Testing Hardware: £15,000',
-        'Development Tools: £10,000'
+        'Testing Hardware: $15,000',
+        'Development Tools: $10,000'
       ],
-      title3: 'Implementation (£10,000):',
+      title3: 'Implementation ($10,000):',
       items3: [
-        'Validation: £6,000',
-        'Documentation: £4,000'
+        'Validation: $6,000',
+        'Documentation: $4,000'
       ]
     },
     supportingDocuments: [

@@ -33,7 +33,7 @@ export function Navigation() {
     <header className="">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="font-bold text-xl">
-          HMGCC
+          TechForward
         </Link>
 
         <NavigationMenu>

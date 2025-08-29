@@ -15,7 +15,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const REFERRAL_SOURCES = [
   'LinkedIn',
   'Twitter',
-  'Government Website',
+  'Technology Website',
   'Email Newsletter',
   'Word of Mouth',
   'Other'

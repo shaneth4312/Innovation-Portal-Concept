@@ -8,9 +8,9 @@ interface ShareButtonsProps {
 
 export function ShareButtons({ title }: ShareButtonsProps) {
   const shareUrls = {
-    twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(`Check out this HMGCC challenge: ${title}`)}`,
+    twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(`Check out this TechForward challenge: ${title}`)}`,
     linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(window.location.href)}`,
-    email: `mailto:?subject=${encodeURIComponent(`HMGCC Challenge: ${title}`)}&body=${encodeURIComponent(`Check out this challenge from HMGCC: ${window.location.href}`)}`
+    email: `mailto:?subject=${encodeURIComponent(`TechForward Challenge: ${title}`)}&body=${encodeURIComponent(`Check out this challenge from TechForward: ${window.location.href}`)}`
   };
 
   return (

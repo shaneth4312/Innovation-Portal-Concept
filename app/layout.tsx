@@ -8,7 +8,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'HMGCC',
+  title: 'TechForward',
   description: 'Submit and manage innovation challenges',
 };
 
